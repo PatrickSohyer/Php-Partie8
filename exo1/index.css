@@ -1,0 +1,19 @@
+#serverName {
+    color: red;
+}
+
+#ipAddress {
+    color: greenyellow;
+}
+
+#userAgent {
+    color: orange;
+}
+
+.colorBackgroundBody {
+    background-color: grey;
+}
+
+.exerciceConsign {
+    border: 2px black solid;
+}

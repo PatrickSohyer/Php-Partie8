@@ -1,0 +1,11 @@
+.exerciceConsign {
+    border: 2px black solid;
+}
+
+.colorBackgroundBody {
+    background-color: grey;
+}
+
+#login, #password {
+    color: red;
+}

@@ -1,0 +1,19 @@
+.colorBackgroundBody {
+    background-color: grey;
+}
+
+.exerciceConsign {
+    border: 2px black solid;
+}
+
+#firstname {
+    color: red;
+}
+
+#lastname {
+    color: green;
+}
+
+#age {
+    color: blue;
+}
