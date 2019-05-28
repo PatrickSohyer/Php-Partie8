@@ -1,7 +1,5 @@
 <?php
-
-setcookie('password', 'Thisisanewpassword', time() + 365*24*3600, '/', 'phpexercice');
-
+setcookie('password', 'Thisisanewpassword', time() + 365 * 24 * 3600, '/', 'phpexercice');
 ?>
 
 <!DOCTYPE html>
@@ -14,11 +12,11 @@ setcookie('password', 'Thisisanewpassword', time() + 365*24*3600, '/', 'phpexerc
         <title>Exercice 5, Partie 8</title>
     </head>
     <body class="colorBackgroundBody">
-        
+
         <div class="text-center">
             <h1>EXERCICE 5, PARTIE 8</h1>
         </div>
-        
+
         <div class="container container-fluid">
             <div class="row">
                 <div class="col-6 mx-auto">
@@ -28,11 +26,17 @@ setcookie('password', 'Thisisanewpassword', time() + 365*24*3600, '/', 'phpexerc
                 </div>
             </div>
         </div>
-        
-        
+
+
         <p class="text-center mt-3">Votre login est : <b id="login"><?= $_COOKIE['login']; ?></b>!</p>
         <p class="text-center">Votre mot de passe est : <b id="password"><?= $_COOKIE['password']; ?></b>!</p>
-        
+
+        <p><a href="http://phpexercice/partie8/exo1/">Partie 8 exerice 1</a></p>
+        <p><a href="http://phpexercice/partie8/exo2/">Partie 8 exerice 2</a></p>
+        <p><a href="http://phpexercice/partie8/exo3/">Partie 8 exerice 3</a></p>
+        <p><a href="http://phpexercice/partie8/exo4/">Partie 8 exerice 4</a></p>
+        <p><a href="http://phpexercice/partie8/exo5/">Partie 8 exerice 5</a></p>
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
